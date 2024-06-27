@@ -20,4 +20,5 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint $(git ls-files '*.py')
+        # Ensure only existing .py files are checked
+        ls-files '*.py' | xargs pylint
