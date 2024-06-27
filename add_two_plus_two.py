@@ -2,4 +2,4 @@
 RESULT = 2 + 2
 
 # Print out the result
-print("The result of 2 + 2 is:", result)
+print("The result of 2 + 2 is:", RESULT)
